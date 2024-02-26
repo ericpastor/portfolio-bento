@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+:root {
+  --foreground-light-rgb: 255, 255, 255;
+  --background-start-light-rgb: 214, 219, 220;
+  --background-rgb: 220, 220, 220;
+  --background-start-dark-rgb: 0, 0, 0;
+  --background-end-dark-rgb: 214, 219, 220;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-rgb))
+      )
+      rgb(var(--background-start-light-rgb)),
+    rgb(var(--background-start-dark-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
