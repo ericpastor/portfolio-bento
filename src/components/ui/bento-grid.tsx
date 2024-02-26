@@ -56,16 +56,16 @@ export const BentoGridItem = ({
                 <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
                     {description}
                 </div>
-                <div className="absolute bottom-0 right-24">
+                <div className="absolute bottom-12 right-24">
                     {iconBottomOne}
                 </div>
-                <div className="absolute bottom-0 right-16">
+                <div className="absolute bottom-12 right-16">
                     {iconBottomTwo}
                 </div>
-                <div className="absolute bottom-0 right-8">
+                <div className="absolute bottom-12 right-8">
                     {iconBottomThree}
                 </div>
-                <div className="absolute bottom-0 right-0">
+                <div className="absolute bottom-12 right-0">
                     {theme}
                 </div>
             </div>
