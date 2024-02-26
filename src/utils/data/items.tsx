@@ -107,9 +107,17 @@ const SkeletonSeven = () => (
 );
 
 const SkeletonEight = () => (
-    <div className="flex w-full h-full rounded-xl items-center justify-center bg-gradient-to-br from-gray-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
-        <CertificatesScroll />
-    </div>
+    <>
+        <div className="flex flex-col items-center justify-center">
+            <p className="font-sans text-lg text-center font-bold text-logo-blue dark:text-logo-blue -mb-3 -mt-2">Certificates</p>
+        </div>
+        <div className="flex w-full h-full rounded-xl items-center justify-center bg-gradient-to-br from-gray-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
+            {/* <div className="flex flex-col items-center justify-center">
+            <p className="font-sans text-lg text-center font-bold text-logo-blue dark:text-logo-blue mb-0 mt-4">Certificates</p> */}
+            <CertificatesScroll />
+            {/* </div> */}
+        </div>
+    </>
 );
 
 const SkeletonNine = () => (
