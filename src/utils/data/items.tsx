@@ -99,7 +99,7 @@ const SkeletonSeven = () => (
     <div className="relative flex w-full h-full rounded-xl items-center justify-center overflow-hidden shadow-md hover:shadow-lg">
         <Image src={PortfolioProject} alt="breweries search" className="w-full h-full object-cover brightness-50 ease-in-out hover:brightness-75" />
         <div className="absolute inset-15 flex items-center gap-2 justify-center">
-            <Link href="https://ephemeral-custard-b47be4.netlify.app/" rel="noopener noreferrer" target="_blank">
+            <Link href="https://github.com/ericpastor/portfolio-bento" rel="noopener noreferrer" target="_blank">
                 <IconCodeCircle2 className="w-8 h-8 cursor-pointer cursor-pointer text-yellow-200 brightness-90 ease-in-out hover:brightness-100" />
             </Link>
         </div>
