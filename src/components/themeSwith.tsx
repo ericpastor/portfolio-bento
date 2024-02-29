@@ -24,10 +24,10 @@ export default function ThemeSwitch() {
     )
 
     if (resolvedTheme === 'dark') {
-        return <IconBrightness2 onClick={() => setTheme('light')} />
+        return <IconBrightness2 onClick={() => setTheme('dark')} />
     }
 
-    if (resolvedTheme === 'light') {
+    if (resolvedTheme === 'dark') {
         return <IconMoonStars onClick={() => setTheme('dark')} />
     }
 

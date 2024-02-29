@@ -5,7 +5,7 @@ import content from "@/utils/data/content"
 
 export function CertificatesScroll() {
     return (
-        <div className="p-0">
+        <div className="p-0 bg-card-start">
             <StickyScroll content={content} />
         </div>
     );

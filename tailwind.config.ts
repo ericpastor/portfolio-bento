@@ -18,6 +18,8 @@ const config: Config = {
       colors: {
         'logo-blue': '#4dc5ff',
         'logo-blue-light': '#4dc5ff',
+        'card-start': '#04080f',
+        'card-end': '#05040cff',
       },
       animation: {
         scroll:
@@ -29,6 +31,9 @@ const config: Config = {
             transform: 'translate(calc(-50% - 0.5rem))',
           },
         },
+      },
+      boxShadow: {
+        'in-dark': '0 0 20px rgba(0, 170, 255, 1)',
       },
     },
   },

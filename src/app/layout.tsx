@@ -11,7 +11,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className="dark:bg-card-end">
         <Providers>
           {children}
         </Providers>
