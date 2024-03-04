@@ -11,7 +11,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="dark:bg-card-end">
+      <body className="bg-gradient-to-br from-blue-500 to-blue-200 dark:bg-gradient-to-br dark:from-card-end dark:to-card-end">
         <Providers>
           {children}
         </Providers>

@@ -47,7 +47,7 @@ export const StickyScroll = ({
 
     return (
         <motion.div
-            className="relative h-[15rem] overflow-y-auto flex justify-center relative space-x-2 rounded-md p-2"
+            className="relative h-[15rem] overflow-y-auto flex justify-center relative space-x-2 rounded-md p-2 custom-scrollbar-dark"
             ref={ref}
         >
             <div className="div relative flex items-start px-0">
@@ -61,7 +61,7 @@ export const StickyScroll = ({
                                 animate={{
                                     opacity: activeCard === index || index + 1 ? 1 : 0.3,
                                 }}
-                                className="font-sans font-bold text-white  mb-1 -mt-12"
+                                className="font-sans font-bold text-blue-dark dark:text-white  mb-1 -mt-12"
                             >
                                 {item.title}
                             </motion.h2>
@@ -72,7 +72,7 @@ export const StickyScroll = ({
                                 animate={{
                                     opacity: activeCard === index || index + 1 ? 1 : 0.3,
                                 }}
-                                className="font-sans font-bold text-white text-xs  max-w-sm"
+                                className="font-sans font-bold text-logo-blue dark:text-white text-xs  max-w-sm"
                             >
                                 {item.subtitle}
                             </motion.p>
@@ -83,7 +83,7 @@ export const StickyScroll = ({
                                 animate={{
                                     opacity: activeCard === index || index + 1 ? 1 : 0.3,
                                 }}
-                                className="font-sans font-normal text-neutral-300 text-xs  max-w-sm mb-4"
+                                className="font-sans font-normal text-neutral-900 dark:text-neutral-300 text-xs  max-w-sm mb-4"
                             >
                                 {item.description}
                             </motion.p>

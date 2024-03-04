@@ -9,6 +9,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      minHeight: {
+        '18': '18rem',
+      },
+      fontFamily: {
+        Orbitron: ['Orbitron', 'serif'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -18,8 +24,10 @@ const config: Config = {
       colors: {
         'logo-blue': '#4dc5ff',
         'logo-blue-light': '#4dc5ff',
+        'blue-dark': '#00527a',
         'card-start': '#04080f',
         'card-end': '#05040cff',
+        tech: '#eeeef1',
       },
       animation: {
         scroll:
@@ -39,6 +47,6 @@ const config: Config = {
   },
 
   plugins: [],
-  darkMode: 'media' && 'class',
+  darkMode: 'media' && 'class' && 'selector',
 }
 export default config

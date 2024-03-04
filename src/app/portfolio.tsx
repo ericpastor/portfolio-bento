@@ -6,8 +6,8 @@ export function Portfolio() {
 
     return (
         <>
-            <div className="m-8">
-                <BentoGrid className="max-w-full mx-auto gap-8">
+            <div className="m-10">
+                <BentoGrid className="max-w-full mx-auto gap-1">
                     {items.map((item, i) => (
                         <>
                             <BentoGridItem
@@ -20,7 +20,7 @@ export function Portfolio() {
                                 iconBottomTwo={item.iconBottomTwo}
                                 iconBottomThree={item.iconBottomThree}
                                 theme={item.theme}
-                                className={i === 0 || i === 3 || i === 4 || i === 7 || i === 10 || i === 8 ? "md:col-span-2" : ""}
+                                className={i === 0 || i === 2 || i === 5 || i === 6 || i === 10 || i === 9 ? "md:col-span-2" : ""}
                             />
                         </>
                     ))}
