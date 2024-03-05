@@ -31,7 +31,7 @@ export function Lamp({ title }: LampProps) {
             <LampContainerNew>
                 <motion.h1
                     initial={{ opacity: 0.2, y: 15 }}
-                    whileInView={{ opacity: 1, y: -12 }}
+                    whileInView={{ opacity: 1, y: -7 }}
                     transition={{
                         delay: 0.3,
                         duration: 0.8,
@@ -185,8 +185,8 @@ export const LampContainerNew = ({
                 </div>
                 <div className="absolute inset-auto z-50 h-18 w-[18rem] -translate-y-1/2 rounded-full bg-cyan-500 opacity-50 blur-3xl"></div>
                 <motion.div
-                    initial={{ width: "8rem" }}
-                    whileInView={{ width: "15rem" }}
+                    initial={{ width: "4rem" }}
+                    whileInView={{ width: "8rem" }}
                     transition={{
                         delay: 0.3,
                         duration: 0.8,
@@ -195,8 +195,8 @@ export const LampContainerNew = ({
                     className="absolute inset-auto z-30 h-36 w-64 -translate-y-[5rem] rounded-full bg-transparent dark:bg-logo-blue blur-2xl"
                 ></motion.div>
                 <motion.div
-                    initial={{ width: "15rem" }}
-                    whileInView={{ width: "20rem" }}
+                    initial={{ width: "10rem" }}
+                    whileInView={{ width: "15rem" }}
                     transition={{
                         delay: 0.3,
                         duration: 0.8,

@@ -108,6 +108,62 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .responsive-edu {
+    font-size: 0.45rem;
+    line-height: 110%;
+  }
+}
+
+@media (min-width: 781px) {
+  .responsive-edu {
+    font-size: 0.48rem;
+    line-height: 110%;
+  }
+}
+
+@media (min-width: 805px) {
+  .responsive-edu {
+    font-size: 0.5rem;
+    line-height: 120%;
+  }
+}
+
+@media (min-width: 867px) {
+  .responsive-edu {
+    font-size: 0.5rem;
+    line-height: 130%;
+  }
+}
+
+@media (min-width: 903px) {
+  .responsive-edu {
+    font-size: 0.5rem;
+    line-height: 150%;
+  }
+}
+
+@media (min-width: 1020px) {
+  .responsive-edu {
+    font-size: 0.6rem;
+    line-height: 130%;
+  }
+}
+
+@media (min-width: 1125px) {
+  .responsive-edu {
+    font-size: 0.7rem;
+    line-height: 130%;
+  }
+}
+
+@media (min-width: 1607px) {
+  .responsive-edu {
+    font-size: 1rem;
+    line-height: 130%;
+  }
+}
+
 @media (max-width: 860px) {
   .lamp-reponsive {
     font-size: 0.3rem;

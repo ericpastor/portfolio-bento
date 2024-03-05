@@ -1,7 +1,7 @@
 import { CertificatesScroll } from "@/app/certificatesScroll";
 import ThemeSwitch from "@/components/themeSwith";
 import { Lamp } from "@/components/ui/lamp";
-import { IconAddressBook, IconApi, IconBooks, IconBrandGithub, IconBrandLinkedin, IconCodeCircle2, IconCurrentLocation, IconDeviceDesktop, IconNews, IconPresentation, IconShip } from "@tabler/icons-react";
+import { IconAddressBook, IconApi, IconBooks, IconBrandGithub, IconBrandLinkedin, IconCodeCircle2, IconDeviceDesktop, IconNews, IconPresentation, IconShip } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -25,7 +25,7 @@ const SkeletonTwo = () => (
     <div className="flex flex-col items-center justify-center mb-10 bg-white dark:bg-card-start rounded-lg p-3 mt-2 -mb-6">
         <div className="flex items-center">
             <div>
-                <Image src={Comic} alt="me-sailing" className="w-10 h-10 rounded-full object-cover mx-3" />
+                <Image src={Comic} alt="me-sailing" className="w-10 h-10 rounded-full object-cover mx-3 mt-1" />
             </div>
             <div className="flex flex-col items-start justify-center">
                 <strong className="font-sans text-xl font-bold text-blue-dark dark:text-logo-blue ">About Me</strong>
@@ -99,15 +99,19 @@ const SkeletonFive = () => (
             </div>
         </div>
         <div className="max-w-max mx-auto h-40 overflow-auto custom-scrollbar-dark">
-            <p className="leading-5 font-sans font-normal text-sm text-center text-neutral-600 dark:text-neutral-300 -mb-1 mt-3 px-2  z-10 pb-1 responsive-paragraph">
+            <p className="leading-5 font-sans font-normal text-sm text-center text-neutral-600 dark:text-neutral-300 -mb-1 mt-3 px-2  z-10 pb-1 responsive-edu">
                 <a className="text-blue-dark font-bold dark:text-neutral-300"> FULL STACK DEVELOPMENT PROGRAM &#10098;FULL-TIME&#10099;</a>
             </p>
-            <p className="leading-5 font-sans font-normal text-sm text-center text-neutral-600 dark:text-neutral-300 -mb-1 mt-3 px-2  z-10 pb-1  responsive-paragraph">
+            <p className="leading-5 font-sans font-normal text-sm text-center text-neutral-600 dark:text-neutral-300 mb-2 mt-3 px-2  z-10 pb-1  responsive-edu">
                 Integrify Academy | Helsinki, Finland | August 2023 - Present</p>
-            <p className="leading-5 font-sans font-normal text-sm text-center text-neutral-600 dark:text-neutral-300 -mb-1 mt-3 px-2  z-10 pb-1 responsive-paragraph">
+
+            <hr className="w-1/4 border-logo-blue brightness-90 mx-auto" style={{ color: '#4dc5ff', marginTop: '1px', borderWidth: '1px' }} />
+
+
+            <p className="leading-5 font-sans font-normal text-sm text-center text-neutral-600 dark:text-neutral-300 -mb-1 mt-3 px-2  z-10 pb-1 responsive-edu">
                 <a className="text-blue-dark font-bold dark:text-neutral-300">BACHELOR’S DEGREE IN NAUTICAL SCIENCE AND MARITIME TRANSPORT</a>
             </p>
-            <p className="leading-5 font-sans font-normal text-sm text-center text-neutral-600 dark:text-neutral-300 -mb-1 mt-3 px-2  z-10 pb-1  responsive-paragraph">
+            <p className="leading-5 font-sans font-normal text-sm text-center text-neutral-600 dark:text-neutral-300 -mb-1 mt-3 px-2  z-10 pb-1  responsive-edu">
                 Universitat Politècnica de Catalunya | Barcelona, Spain | September 2014 - February 2019</p>
         </div>
     </div>
@@ -254,7 +258,7 @@ const SkeletonEleven = () => (
     <div className=" h-60 m-2 overflow-auto custom-scrollbar-dark">
         <div className="grid grid-cols-5 grid-rows-2 gap-1 p-2 -mb-20">
             <div className="col-span-4">
-                <p className="font-sans font-bold text-lg text-blue-dark dark:text-logo-blue brightness-90">About this Portfolio</p>
+                <p className="font-sans font-bold text-lg text-blue-dark dark:text-logo-blue brightness-90">About the Portfolio</p>
                 <hr className="my-3 h-0.25 border-logo-blue mt-1 px-6" style={{ color: '#4dc5ff' }}></hr>
                 <p className="font-sans font-normal text-neutral-600 dark:text-neutral-300 text-xs max-w-lg">
                     A single-page portfolio, crafted with Bento layout design. I used Nextjs and Tailwind to have my first experience with these two technologies.
@@ -288,12 +292,8 @@ const SkeletonEleven = () => (
 const SkeletonTwelve = () => (
     <div id="contact" className="flex flex-col items-center justify-center mb-10 bg-white dark:bg-card-start rounded-lg p-3 mt-2 -mb-6">
         <div className="flex items-center">
-            <div>
-                <IconAddressBook className="w-10 h-10 rounded-full object-cover mx-3 mt-1" />
-            </div>
             <div className="flex flex-col items-start justify-center">
-                <strong className="font-sans text-xl font-bold text-blue-dark dark:text-logo-blue ">Contact</strong>
-                <span className="font-sans text-xs text-logo-blue responsive-paragraph">&ldquo;Get in touch!&rdquo;</span>
+                <strong className="font-sans text-xl font-bold text-blue-dark dark:text-logo-blue ">CONTACT</strong>
             </div>
         </div>
         <p className="text-center font-sans font-bold text-neutral-600 text-xs dark:text-neutral-300 mb1 mt-8 px-4 pb-1">
